@@ -1,12 +1,10 @@
 public class Student {
 
-    // Private variables
     private String studentID;
     private String name;
     private double cgpa;
     private String programme;
 
-    // Setter for Student ID
     public void setStudentID(String studentID) {
         this.studentID = studentID;
     }
@@ -16,12 +14,10 @@ public class Student {
         this.name = name;
     }
 
-    // Setter for CGPA
     public void setCGPA(double cgpa) {
         this.cgpa = cgpa;
     }
 
-    // Setter for Programme
     public void setProgramme(String programme) {
         this.programme = programme;
     }
@@ -31,17 +27,14 @@ public class Student {
         return studentID;
     }
 
-    // Getter for Name
     public String getName() {
         return name;
     }
 
-    // Getter for CGPA
     public double getCGPA() {
         return cgpa;
     }
 
-    // Getter for Programme
     public String getProgramme() {
         return programme;
     }
